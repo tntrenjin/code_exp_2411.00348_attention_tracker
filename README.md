@@ -20,8 +20,11 @@ Only the attention score of the last token is considered.
 ### Comparison of Attention Scores Across Layers and Heads
 
 - Normal Prompt
+
   ![](src/imgs/layer_head_normal.png)
+
 - With Prompt Injection
+
   ![](src/imgs/layer_head_attack.png)
 
 > TODO: Unable to replicate the results of Figure 2(a) in the paper 😕
@@ -37,8 +40,11 @@ By subtracting the normal prompt from the attack prompt, we observe an overall a
 ## Comparison of Attention Scores Across Layers and Tokens
 
 - Normal Prompt
+
   ![](src/imgs/layer_token_normal.png)
+
 - With Prompt Injection
+
   ![](src/imgs/layer_token_attack.png)
 
 It is observed that during a prompt injection attack, attention shifts from the Instruction and Data areas to the Prompt Injection.
