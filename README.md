@@ -5,7 +5,7 @@ And just for personal testing and experimental purposes.
 
 ## Source Code
 
-- [Compare attention score](src/experiment/2411_00348_compare_attention_scores.ipynb)
+- [Compare attention scores](src/experiment/2411_00348_compare_attention_scores.ipynb)
 
 ## Test Benchmark
 
@@ -45,8 +45,10 @@ It is observed that during a prompt injection attack, attention shifts from the 
 
 ## Todo Roadmap
 
-- [ ] Find out **Important Heads**
-- [ ] Calculate **Focus Score**
+- [ ] Reproduce attention shift results - Layers and Heads
+- [X] Reproduce attention shift results - Layers and Tokens
+- [ ] Find out Important Heads
+- [ ] Calculate Focus Score
 
 ## Additional Questions
 
